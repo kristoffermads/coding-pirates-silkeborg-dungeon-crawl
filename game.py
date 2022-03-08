@@ -4,35 +4,6 @@ from CodingPiratesDungeon import CodingPiratesDungeon, Path, Room
 
 dungeon = CodingPiratesDungeon('./assets/images/', 400, 250, 'EoB Coding Pirates Generator')
 
-
-"""
-dungeon.setDungeon([
-    "....................",
-    ".........         ..",
-    "......... ....... ..",
-    "......... ....... ..",
-    "......... ....... ..",
-    "......... ....... ..",
-    "......... ....... ..",
-    "......... ...     ..",
-    "......... ... ......",
-    "......... .1     ....",
-    "......... 3     ....",
-    "......... .     ....",
-    "......... ..........",
-    ".........S..........",
-    "....................",
-])
-"""
-
-
-
-
-
-
-
-
-
 dungeon.addRoom({
     "navn"  : "start",
     "text"  : [
